@@ -88,4 +88,3 @@ stages:
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
                 $(containerRegistry)/$(jobsRepository):$(tag)
-

@@ -17,3 +17,7 @@ spec:
           image: nodejsonakscontainer.azurecr.io/instafluffnodejsonazuremulticontainerpods
           ports:
           - containerPort: 8080
+        - name: instafluffnodejsonazuremulticontainerpods-jobs
+          image: nodejsonakscontainer.azurecr.io/instafluffnodejsonazuremulticontainerpods-jobs
+          ports:
+          - containerPort: 8081

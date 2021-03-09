@@ -1,6 +1,5 @@
 import fetch from "node-fetch";
 import * as Web from "webwebweb";
-import * as Clock from "comfyclock";
 
 let jobs = [];
 async function getLatestJobs() {
@@ -9,9 +8,9 @@ async function getLatestJobs() {
 }
 getLatestJobs();
 
-Clock.Every[ "15 minutes" ] = ( date ) => {
+setInterval( () => {
     getLatestJobs();
-}
+}, 60000 * 15 );
 
 Web.APIs[ "/search" ] = ( qs, body, opts ) => {
     if( qs.text ) {

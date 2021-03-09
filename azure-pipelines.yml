@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '88424496-1d36-4f84-a7aa-202b58750a00'
   imageRepository: 'instafluffnodejsonazuremulticontainerpods'
   containerRegistry: 'nodejsonakscontainer.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/main/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'nodejsonakscontainerd15d-auth'
   jobsRepository: 'instafluffnodejsonazuremulticontainerpods-jobs'

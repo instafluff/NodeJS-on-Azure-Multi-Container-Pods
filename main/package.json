@@ -9,11 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^14.14.32",
-    "typescript": "^4.2.3"
-  },
   "dependencies": {
+    "@types/node": "^14.14.32",
+    "typescript": "^4.2.3",
     "node-fetch": "^2.6.1",
     "webwebweb": "^1.4.9"
   }
